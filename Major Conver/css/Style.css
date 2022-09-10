@@ -1,0 +1,680 @@
+/*background color*/
+
+.bg_white {
+    background: #FFF;
+}
+
+.blue_tra {
+    background: #F0F7FF;
+}
+
+.bg_black {
+    background: #000;
+}
+
+.bg_blue {
+    background: #207DE9;
+
+}
+
+/*color*/
+
+.black {
+    color: #000000;
+}
+
+.blue {
+    color: #207DE9;
+}
+
+/*font weight*/
+
+.fw_900 {
+    font-weight: 900;
+}
+
+.fw_800 {
+    font-weight: 800;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_300 {
+    font-weight: 300;
+}
+
+/*font size*/
+
+.fs_main_heading {
+    font-size: 100px;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 29px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+/* span */
+
+.h7 {
+    font-size: 20px;
+}
+
+.h8 {
+    font-size: 14px;
+}
+
+.h9 {
+    font-size: 12px;
+}
+
+/* body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+a,
+span {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* header */
+
+.container {
+    max-width: 1270px;
+}
+
+.top_padding {
+    padding-top: 100px;
+}
+
+.bg_main {
+    background-image: url(../image/bg_main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top_bar_inner_text,
+.ready_to_grow_heading {
+    line-height: 1.15;
+}
+
+.main_button {
+    width: 176px;
+    border-radius: 12px;
+}
+
+.main_heading {
+    padding-top: 94px;
+    max-width: 966px;
+    padding-bottom: 41px;
+}
+
+.free_quote {
+    max-width: 981px;
+}
+
+.border_radius,
+.free_quote {
+    border-radius: 30px;
+}
+
+.free_quote_content_inner {
+    width: 45%;
+    padding-left: 32px;
+}
+
+.free_quote_content_drop_img {
+    margin-left: -40px;
+    margin-top: -7px;
+}
+
+/* about us */
+
+.majorconversion {
+    max-width: 529px;
+}
+
+.majorconversion_text,
+.tom_collins_text {
+    letter-spacing: 0.03em;
+    line-height: 1.75;
+}
+
+.our_pedigree_text {
+    letter-spacing: 0.2em;
+}
+
+.our_pedigree::after {
+    content: "";
+    position: absolute;
+    background-image: url(../image/ellipse.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 454px;
+    width: 454px;
+    z-index: -1;
+    right: -196px;
+    bottom: -93px;
+}
+
+/* custom services */
+
+.our_philosophy::after {
+    content: "";
+    position: absolute;
+    background-image: url(../image/ellipse-1.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 379px;
+    width: 379px;
+    z-index: -1;
+    left: -180px;
+    bottom: 52px;
+}
+
+.custom_services {
+    padding-top: 169px;
+    padding-bottom: 150px;
+}
+
+.custom_services_text_outer {
+    border-radius: 12px;
+    width: 294px;
+    height: 355px;
+}
+
+.custom_services_text_inner {
+    line-height: 1.35;
+}
+
+.custom_services_text_para {
+    height: 164px;
+}
+
+.custom_services_text_para-1 {
+    height: 92px;
+}
+
+.custom_services_text_para-2 {
+    height: 128px;
+}
+
+.custom_services_text_para_inner,
+.ready_to_grow_para {
+    letter-spacing: 0.03em;
+}
+
+
+/* client say */
+
+.client_say::after {
+    content: "";
+    position: absolute;
+    background-image: url(../image/ellipse.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 454px;
+    width: 454px;
+    z-index: -1;
+    right: -196px;
+    bottom: -117px;
+}
+
+.client_say_img {
+    height: 50px;
+    width: 50px;
+}
+
+.tom_collins {
+    max-width: 604px;
+}
+
+.custom_services_text {
+    border-radius: 12px;
+}
+
+/* our clients */
+
+.our_clients_inner {
+    padding: 53px 57px;
+}
+
+.brand_logo::after {
+    content: "";
+    position: absolute;
+    background-image: url(../image/ellipse-2.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 318px;
+    width: 318px;
+    z-index: -1;
+    left: -178px;
+    bottom: -193px;
+}
+
+.our_clients_inner-img {
+    border-left: 1px solid rgba(255, 255, 255, 0.322);
+}
+
+/* ready to grow */
+
+.ready_to_grow {
+    padding-top: 263px;
+    padding-bottom: 141px;
+}
+
+.ready_to_grow_left {
+    max-width: 650px;
+}
+
+.ready_to_grow_para {
+    line-height: 1.6;
+    max-width: 595px;
+}
+
+/* footer */
+
+.footer_left_col {
+    max-width: 436px;
+}
+
+.major_conv_footer_text {
+    line-height: 2.5;
+}
+
+.major_conv_footer_contect {
+    margin-left: -16px;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.custom_services_body .slick-next:before {
+    content: "";
+    position: absolute;
+    background: url(../image/Back-Arrow-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    opacity: 100;
+    top: -20px;
+    right: 20px;
+}
+
+
+/* container widh meadia wise */
+@media only screen and (min-width:1440px) and (max-width:1630px) {
+    .our_pedigree::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 250px;
+        width: 250px;
+        z-index: -1;
+        right: -132px;
+        bottom: -78px;
+    }
+
+    .client_say::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 250px;
+        width: 250px;
+        z-index: -1;
+        right: -132px;
+        bottom: -110px;
+    }
+}
+
+@media only screen and (min-width:1360px) and (max-width:1439px) {
+    .our_pedigree::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 250px;
+        width: 250px;
+        z-index: -1;
+        right: -78px;
+        bottom: -78px;
+    }
+
+
+    .our_philosophy::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse-1.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 250px;
+        width: 250px;
+        z-index: -1;
+        left: -40px;
+        bottom: 96px;
+    }
+
+    .client_say::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 250px;
+        width: 250px;
+        z-index: -1;
+        right: -100px;
+        bottom: -110px;
+    }
+
+    .brand_logo::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse-2.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 200px;
+        width: 200px;
+        z-index: -1;
+        left: -40px;
+        bottom: -60px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1359px) {
+    h4 {
+        font-size: 26px;
+    }
+
+    .h7 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .our_pedigree::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 180px;
+        width: 180px;
+        z-index: -1;
+        right: -40px;
+        bottom: -53px;
+    }
+
+
+    .our_philosophy::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse-1.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 180px;
+        width: 180px;
+        z-index: -1;
+        left: -10px;
+        bottom: 125px;
+    }
+
+    .client_say::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 180px;
+        width: 180px;
+        z-index: -1;
+        right: -65px;
+        bottom: -79px;
+    }
+
+    .brand_logo::after {
+        content: "";
+        position: absolute;
+        background-image: url(../image/ellipse-2.png);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 180px;
+        width: 180px;
+        z-index: -1;
+        left: -15px;
+        bottom: -30px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .h7 {
+        font-size: 16px;
+    }
+
+    .main_heading {
+        padding-top: 16px;
+    }
+
+    .our_pedigree::after,
+    .our_philosophy::after,
+    .client_say::after,
+    .brand_logo::after {
+        display: none;
+    }
+
+    .fs_main_heading,
+    h1,
+    h2 {
+        font-size: 65px;
+        line-height: 1;
+    }
+
+    .our_clients_inner>div:nth-child(5) {
+        display: none;
+    }
+
+    .major_conv_footer_inner>div:nth-child(4) {
+        display: none;
+    }
+
+    .custom_services,
+    .ready_to_grow,
+    .custom_services {
+        padding: 100px 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .major_conv_footer_inner>div:nth-child(3),
+    .major_conv_footer_inner>div:nth-child(4) {
+        display: none;
+    }
+
+    .our_clients_inner>div:nth-child(4),
+    .our_clients_inner>div:nth-child(5) {
+        display: none;
+    }
+
+    .custom_services,
+    .ready_to_grow,
+    .custom_services {
+        padding: 80px 0;
+    }
+    h4{
+        font-size: 24px;
+    }
+}
+
+@media (max-width:991px) {
+    .main_heading {
+        padding-top: 16px;
+    }
+
+    .border-start {
+        border-left: none !important;
+    }
+
+    .fs_main_heading,
+    h1 {
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .free_quote_content_inner {
+        width: 286px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    .our_pedigree::after,
+    .our_philosophy::after,
+    .client_say::after,
+    .brand_logo::after {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .our_clients_inner-img {
+        border-left: unset;
+    }
+
+    .free_quote_content_inner {
+        margin-right: 0 !important;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .custom_services,
+    .ready_to_grow,
+    .custom_services {
+        padding: 70px 0;
+    }
+
+    .major_conv_footer_inner>div:nth-child(2),
+    .major_conv_footer_inner>div:nth-child(3),
+    .major_conv_footer_inner>div:nth-child(4) {
+        display: none;
+    }
+}
+
+/* @media (max-width:654px) {} */
+
+@media (max-width:481px) {
+
+    .fs_main_heading,
+    h1,
+    h2 {
+        font-size: 28px;
+    }
+
+    h5,
+    .h7 {
+        font-size: 16px;
+    }
+
+    h3,
+    h4 {
+        font-size: 24px;
+    }
+
+    .free_quote_content_inner {
+        width: 250px;
+    }
+
+    .free_quote_contact_img {
+        width: 310px;
+    }
+
+    .custom_services_body .slick-next:before {
+        display: none;
+    }
+
+    .our_clients_inner {
+        padding: 30px 0px;
+    }
+}
